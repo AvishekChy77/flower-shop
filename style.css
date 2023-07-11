@@ -59,7 +59,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 45px;
-  margin-top: 180px;
+  margin-top: 130px;
   margin-bottom: 130px;
 }
 
@@ -123,6 +123,44 @@ h3 {
 
 .featured-bg-3 {
   background: rgba(71, 125, 17, 0.15);
+}
+
+/* Vase section */
+
+.vase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.glass-vase {
+  text-align: center;
+}
+
+.glass-vase p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 35vw;
+}
+
+.vase-pic {
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+}
+
+.vase-pic div {
+}
+
+.vase-pic img {
+  max-height: 350px;
+  border-radius: 5px;
+  border: 2px solid cadetblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* section-3 */
