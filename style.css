@@ -10,6 +10,14 @@ body {
   background: #e55473;
   padding: 20px 35px;
   border: 0;
+  cursor: pointer;
+}
+
+h3 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0px;
 }
 
 /* Banner design */
@@ -59,16 +67,18 @@ body {
   text-align: center;
 }
 
-.featured-details h3 {
+/* .featured-details h3 {
   color: #272727;
   font-size: 30px;
   font-weight: 800;
-}
+  margin-bottom: 0px;
+} */
 
 .featured-details p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 15px;
   font-weight: 400;
+  max-width: 35vw;
 }
 
 .featured-pic {
@@ -86,7 +96,7 @@ body {
 }
 
 .featured-pic img {
-  height: 350px;
+  height: 310px;
 }
 
 .featured-pic a {
@@ -98,8 +108,8 @@ body {
 .featured-bg-1,
 .featured-bg-2,
 .featured-bg-3 {
-  width: 340px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   border-radius: 300px 300px 0px 0px;
 }
 
@@ -113,4 +123,78 @@ body {
 
 .featured-bg-3 {
   background: rgba(71, 125, 17, 0.15);
+}
+
+/* section-3 */
+.hot-deal {
+  display: flex;
+  padding: 100px 20vw;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  gap: 150px;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.deal {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  max-width: 30vw;
+}
+
+/* .deal h3 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0px;
+} */
+
+.deal > h3 > span {
+  color: #e55473;
+}
+
+.deal p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.deal-flower {
+  max-width: 15vw;
+}
+
+/* section-4  */
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 35vw;
+}
+
+.ig-pic {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.ig-tile {
+  max-width: 18vw;
 }
