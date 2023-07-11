@@ -17,7 +17,7 @@ h3 {
   color: #272727;
   font-size: 30px;
   font-weight: 800;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 /* Banner design */
@@ -190,11 +190,84 @@ h3 {
 }
 
 .ig-pic {
+  /* padding: 0 13vw; */
   display: flex;
   gap: 20px;
-  justify-content: space-around;
+  /* justify-content: center; */
+  max-width: 900px;
 }
 
 .ig-tile {
-  max-width: 18vw;
+  max-width: 210px;
+}
+
+/* section-5 */
+
+.subscription {
+  text-align: center;
+  border-radius: 8px;
+  background: url("./Flower Asset/Rectangle 9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 900px;
+  padding-top: 60px;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.subscription input {
+  width: 500px;
+  height: 50px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  margin-bottom: 50px;
+  margin-right: 15px;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+  background: #111010;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.part-1 {
+  color: #e55473;
+}
+
+.part-2 {
+  color: #ffffff;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 500px;
+  text-align: center;
+}
+
+.footer .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-weight: 400;
 }
